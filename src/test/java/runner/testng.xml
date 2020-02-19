@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="RestAssured">
+
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+	</listeners>
+
+
+	<test name="Get wheather">
+		<classes>
+			<class name="getRequest.GetTC001" />
+		</classes>
+	</test> <!-- Test -->
+	
+		<test name="Register">
+		<classes>
+			<class name="postRequest.PostTC001" />
+		</classes>
+	</test> <!-- Test -->
+	
+</suite> <!-- Suite -->

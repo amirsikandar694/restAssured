@@ -1,0 +1,14 @@
+ NewFile.txt | 4 +---
+ 1 file changed, 1 insertion(+), 3 deletions(-)
+
+diff --git a/NewFile.txt b/NewFile.txt
+index 3cfba76..d79d08f 100644
+--- a/NewFile.txt
++++ b/NewFile.txt
+@@ -1,3 +1 @@
+-This is a new file for revert the changes
+-
+-change2
+\ No newline at end of file
++This is a new file for revert the changes
+\ No newline at end of file
